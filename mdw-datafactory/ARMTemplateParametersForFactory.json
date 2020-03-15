@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mdw-datafactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"CloudSales_connectionString": {
+			"value": ""
+		},
+		"CloudStreaming_connectionString": {
+			"value": ""
+		},
+		"forthcoffee_password": {
+			"value": ""
+		},
+		"movies_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://mdw.dfs.core.windows.net"
+		},
+		"forthcoffee_properties_typeProperties_host": {
+			"value": "C:\\Rentals"
+		},
+		"forthcoffee_properties_typeProperties_userId": {
+			"value": "openhackadmin"
+		}
+	}
+}
